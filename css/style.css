@@ -1,0 +1,28 @@
+.nav-link {
+    font-family: Impact;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+.nav-link:hover {
+    color: rgb(182, 215, 243);
+}
+.jumbotron, form {
+    padding: 50px;
+    margin-bottom: 50px;
+}
+.jumbotron {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(../gambar/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+@media (min-width: 992px) {
+    .nav-link{
+        font-family: impact;
+        font-size: 24px;
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+}
